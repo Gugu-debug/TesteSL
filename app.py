@@ -76,7 +76,7 @@ def show_monthly_sales(data):
 
 st.set_page_config(layout="wide")
 
-st.title("Vendas diárias versus mensais, por produto")
+st.title("Vendas Diárias X Mensais, por produto")
 st.markdown("Este aplicativo mostra as vendas diárias de 2023 do Widget A ao Widget Z.")
 
 data = get_data()
